@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/cryptopp-cmake-build/test/unit",
+		"source" : "cmake-build-debug/_deps/cryptopp-cmake-src/test/unit"
+	}
+}

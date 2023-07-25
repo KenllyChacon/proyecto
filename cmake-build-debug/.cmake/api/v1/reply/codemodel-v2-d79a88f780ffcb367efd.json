@@ -1,0 +1,221 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "_deps/fmt-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.fmt-build-Debug-bdeecc2070d73e079ce2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/fmt-src",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "_deps/cryptopp-cmake-build",
+					"childIndexes" : 
+					[
+						3,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.cryptopp-cmake-build-Debug-f462f9eb89309ac22531.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "cmake-build-debug/_deps/cryptopp-cmake-src"
+				},
+				{
+					"build" : "_deps/cryptopp-cmake-build/test",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"jsonFile" : "directory-_deps.cryptopp-cmake-build.test-Debug-1368b3c1ac8badd5b639.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "cmake-build-debug/_deps/cryptopp-cmake-src/test",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "_deps/cryptopp-cmake-build/test/unit",
+					"jsonFile" : "directory-_deps.cryptopp-cmake-build.test.unit-Debug-f47e209ba833badd154e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "cmake-build-debug/_deps/cryptopp-cmake-src/test/unit"
+				},
+				{
+					"build" : "_deps/cryptopp-cmake-build/test/integration",
+					"jsonFile" : "directory-_deps.cryptopp-cmake-build.test.integration-Debug-5b15a0b6273ea579c29b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "cmake-build-debug/_deps/cryptopp-cmake-src/test/integration"
+				},
+				{
+					"build" : "_deps/cryptopp-cmake-build/cryptopp",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.cryptopp-cmake-build.cryptopp-Debug-07089c0278bd6b97d03d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "cmake-build-debug/_deps/cryptopp-cmake-src/cryptopp",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "proyecto",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "FMT",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "cryptopp-cmake",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "cryptest::@cd3fbc65c877ad7b7972",
+					"jsonFile" : "target-cryptest-Debug-4bb79fb7c072fd9b1683.json",
+					"name" : "cryptest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "cryptopp::@cd3fbc65c877ad7b7972",
+					"jsonFile" : "target-cryptopp-Debug-381d0984c99f577e1100.json",
+					"name" : "cryptopp",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fmt::@976f4f0bee90b99ecdb6",
+					"jsonFile" : "target-fmt-Debug-95cb2232c27c9982cd28.json",
+					"name" : "fmt",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "proyecto::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-proyecto-Debug-2c9c6ecb36e794a53cec.json",
+					"name" : "proyecto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test-verbose::@9fda31863dd00bddc68f",
+					"jsonFile" : "target-test-verbose-Debug-fb2c494d9d6699572632.json",
+					"name" : "test-verbose",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/proyecto/cmake-build-debug",
+		"source" : "/workspace/proyecto"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
